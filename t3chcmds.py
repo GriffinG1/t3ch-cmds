@@ -4,13 +4,13 @@ from discord.ext import commands
 '''Just a bunch of ascii faces'''
 
 
-class t3chcmds:  # Replace "Template" with the name of the module
+class T3CHCmds:
 
     def __init__(self, bot):
         self.bot = bot
 		
     @commands.command()
-    async def xd(self, ctx):  # Replace "commandname with the name of the command
+    async def xd(self, ctx):
         """Large XD made of XDs"""
         await ctx.message.delete()
         await ctx.send("XD      XD    XD  XD\n  XD  XD      XD      XD\n     XD           XD       XD\n  XD  XD      XD      XD\nXD      XD    XD  XD")
@@ -52,4 +52,4 @@ class t3chcmds:  # Replace "Template" with the name of the module
         await ctx.send("Ծ_Ծ")
 
 def setup(bot):
-    bot.add_cog(t3chcmds(bot))  # Change this part to the name you used earlier
+    bot.add_cog(T3CHCmds(bot))
