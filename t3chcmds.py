@@ -53,7 +53,7 @@ class t3ch_cmds:
 
     @commands.command()
     async def soon(self, ctx):
-        """Ծ_Ծ"""
+        """Soon™"""
         await ctx.message.delete()
         await ctx.send("Soon™")
 
