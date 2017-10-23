@@ -51,5 +51,11 @@ class T3CHCmds:
         await ctx.message.delete()
         await ctx.send("Ծ_Ծ")
 
+    @commands.command()
+    async def soon(self, ctx):
+        """Ծ_Ծ"""
+        await ctx.message.delete()
+        await ctx.send("Soon™")
+
 def setup(bot):
     bot.add_cog(T3CHCmds(bot))
