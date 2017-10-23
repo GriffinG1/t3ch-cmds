@@ -1,10 +1,10 @@
 import discord
 from discord.ext import commands
 
-'''Just a bunch of ascii faces'''
+'''Just a bunch of ascii faces and such.'''
 
 
-class T3CHCmds:
+class t3ch_cmds:
 
     def __init__(self, bot):
         self.bot = bot
@@ -58,4 +58,4 @@ class T3CHCmds:
         await ctx.send("Soon™")
 
 def setup(bot):
-    bot.add_cog(T3CHCmds(bot))
+    bot.add_cog(t3ch_cmds(bot))
