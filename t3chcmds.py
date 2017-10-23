@@ -4,7 +4,7 @@ from discord.ext import commands
 '''Just a bunch of ascii faces and such.'''
 
 
-class t3ch_cmds:
+class T3CHCmds:
 
     def __init__(self, bot):
         self.bot = bot
@@ -53,9 +53,9 @@ class t3ch_cmds:
 
     @commands.command()
     async def soon(self, ctx):
-        """Soon™"""
+        """™"""
         await ctx.message.delete()
         await ctx.send("Soon™")
 
 def setup(bot):
-    bot.add_cog(t3ch_cmds(bot))
+    bot.add_cog(T3CHCmds(bot))
